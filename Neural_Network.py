@@ -1,4 +1,5 @@
-from data import *
+import numpy as np
+from data import y_test
 
 class Dense_Layer:
 
