@@ -1,3 +1,5 @@
+from data import *
+
 class Dense_Layer:
 
     #Initialize random weights and biases, define activation function of the layer. Mean of randomly initialized weights should be 0.
