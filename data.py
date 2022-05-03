@@ -1,7 +1,5 @@
-%tensorflow_version 2.x
 import tensorflow as tf
 from keras.datasets import mnist
-import numpy as np
 from tensorflow.python.ops.numpy_ops import np_config 
 np_config.enable_numpy_behavior()
 
