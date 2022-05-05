@@ -15,7 +15,6 @@ class Dense_Layer:
         self.pre_activation = np.dot(inputs,self.weights.T) + self.biases
         self.outputs = self.activation(self.pre_activation)
         self.inputs = inputs
-        #print(self.inputs)
         return self.outputs
 
     #Propagate back, the chain rule
@@ -95,7 +94,6 @@ def accuracy(test):
     h = 0
     for i in range(len(test)):
         pred, real = predict(test[i], i)
-       # print(pred, real)
         if pred == real:
             h += 1
     return h/len(test)
